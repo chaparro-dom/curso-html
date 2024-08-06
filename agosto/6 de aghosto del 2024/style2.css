@@ -1,0 +1,43 @@
+body {
+    background: #03001e;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f8f9fa;
+        }
+        
+       
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 40px auto;  /* Centrando la tabla */
+        }
+        
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+            background-color: #ffffff;
+        }
+        
+        th {
+            background-color: #cde930;
+        }
+        ul.custom-list {
+            font-family: 'Lucida Handwriting', cursive;
+            font-size: 18px;
+            list-style-position: inside; /* Asegura que las viñetas se mantengan dentro del área centralizada */
+            text-align: center; /* Centra el texto */
+            padding-left: 0; /* Elimina el padding predeterminado */
+        }
+        li{
+            text-align: center;
+        }
+        
