@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Gabriola';
+    src: url('path/to/gabriola.woff') format('woff');
+}
+
+body{
+    font-family: 'Gabriola', sans-serif;
+    background: #333333;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #dd1818, #333333);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f373c2, #db9c14); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+}
+h1 {
+    text-align: center;
+    list-style-type: decimal;
+    color: rgb(229, 255, 0);
+    font-size: 50px;
+    font-family: 'Baguet Script', sans-serif;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: 'Gabriola', sans-serif;
+}
+h3 {
+    color: rgb(3, 70, 17);
+    font-size: 60px;
+    font-family: 'Gabriola', sans-serif;
+    text-align: center;
+}
+
+.enlace {
+    display: inline-block;
+    margin-right: 50px; /* Separación de 50 px entre los enlaces */
+    font-size: 30px;
+    font-family: 'Gabriola', sans-serif;
+}

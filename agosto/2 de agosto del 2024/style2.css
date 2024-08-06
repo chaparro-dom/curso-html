@@ -1,0 +1,38 @@
+body {
+    background: #FF0099;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #493240, #FF0099);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #493240, #FF0099); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1 {
+    font-family: 'Dreaming Outloud Pro', cursive;
+    font-size: 60px;
+    text-align: center;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px auto;  /* Centrando la tabla */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    background-color: #5e5e5e;
+}
+
+th {
+    background-color: #cde930;
+}
+ul.custom-list {
+    font-family: 'Lucida Handwriting', cursive;
+    font-size: 18px;
+    list-style-position: inside; /* Asegura que las viñetas se mantengan dentro del área centralizada */
+    text-align: center; /* Centra el texto */
+    padding-left: 0; /* Elimina el padding predeterminado */
+}
+li{
+    text-align: center;
+}

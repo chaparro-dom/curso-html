@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegría&display=swap');
+
+body {
+    background: #a8c0ff;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3f2b96, #a8c0ff);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3f2b96, #a8c0ff);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+h1 {
+    text-align: center;
+    list-style-type: decimal;
+    color: yellow;
+    font-size: 50px;
+    font-family: 'Baguet Script', sans-serif;
+}
+
+h2 {
+    text-align: left;
+    list-style-type: disc;
+    font-size: 30px;
+    color: rgb(6, 255, 6);
+}
+
+li {
+    list-style-type: decimal;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}

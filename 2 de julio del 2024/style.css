@@ -1,0 +1,17 @@
+body{
+    background: #556270;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FF6B6B, #556270);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FF6B6B, #556270); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+h1 {
+    text-align: center;
+    list-style-type: decimal;
+    color: rgb(236, 177, 0);
+    font-size: 50px;
+    font-family: 'Baguet Script', sans-serif;
+}
+a {
+    margin-right: 300px; /* Puedes ajustar el valor según tus necesidades */
+    font-size: 25px;
+  }

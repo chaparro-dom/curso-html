@@ -1,0 +1,36 @@
+body{
+    background: #a80077;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #66ff00, #a80077);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f5c800, #08d0c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+}
+.derecha {
+    text-align: right;
+    font-size: 27px;
+    font-family: 'Algerian', sans-serif;
+    color: rgb(130, 175, 4);
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    width: 50%;
+    text-align: center;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+.izquerdo {
+    text-align: left;
+    font-size: 60px;
+    font-family: 'Algerian', sans-serif;
+    color: rgb(4, 10, 175);
+}
+.fin {
+    font-weight: bold;
+    font-style: italic;
+    color: green;
+    text-align: left;
+}

@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Gabriola';
+    src: url('path/to/gabriola.woff') format('woff');
+}
+
+body {
+    background: #a80077;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #66ff00, #a80077);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #66ff00, #a80077);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+a {
+
+font-size: 40px;
+font-family: 'Gabriola', sans-serif;
+
+}

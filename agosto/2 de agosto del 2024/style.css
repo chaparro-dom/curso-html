@@ -1,0 +1,55 @@
+body{
+    background: #FF0099;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #493240, #FF0099);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #493240, #FF0099); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+h1 {
+    font-family: 'Dreaming Outloud Pro', cursive;
+    font-size: 60px;
+    text-align: center;
+}
+/* Estilos generales para la tabla */
+table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para el encabezado */
+thead th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilos para las filas de datos */
+tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e9e9e9;
+}
+
+/* Estilos para las celdas */
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+/* Estilo para el texto centrado en encabezados */
+th[colspan="3"] {
+    text-align: center;
+    font-weight: bold;
+    background-color: #333333;
+    color: white;
+}
+
+/* Estilo para la primera columna */
+tbody td:first-child {
+    font-weight: bold;
+}

@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Gabriola';
+    src: url('path/to/gabriola.woff') format('woff');
+}
+
+body {
+    background: #a80077;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #03f2f2, #a80077);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0ae9ec, #a80077);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h1 {
+
+    font-size: 100px;
+    font-family: 'Gabriola', sans-serif;
+    text-align: center;
+
+}
+
+.custom-bullets {
+    list-style-type: none;
+    /* Eliminar viñetas predeterminadas */
+    padding-left: 0;
+    /* Eliminar el relleno a la izquierda */
+
+    font-size: 60px;
+}
+
+.custom-bullets li {
+    position: relative;
+    padding-left: 60px;
+    /* Espacio para las nuevas viñetas */
+    margin-bottom: 60px;
+    /* Espacio entre ítems */
+}
+
+.custom-bullets li::before {
+    content: "\2022";
+    /* Contenido de la viñeta (•) */
+    color: rgb(89, 255, 0);
+    /* Color de la viñeta */
+    font-weight: bold;
+    /* Grosor de la viñeta */
+    position: absolute;
+    left: 0;
+    top: 0;
+}

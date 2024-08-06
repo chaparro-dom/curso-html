@@ -1,0 +1,10 @@
+<html>
+    <head>
+        Informacion tecnia 
+        para el navegador
+    </head>
+    <body>
+        contenido que aparece 
+        en el navegador
+    </body>
+</html>
