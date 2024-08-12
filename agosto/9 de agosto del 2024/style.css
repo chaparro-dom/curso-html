@@ -1,0 +1,34 @@
+body{
+    background: #4ECDC4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #556270, #4ECDC4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #556270, #4ECDC4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+
+}
+h1{
+    font-family: "Chakra Petch", system-ui;
+  font-weight: 20px;
+  font-style: normal;
+}
+h6
+{
+    font-family: "Chakra Petch", system-ui;
+    font-size: 10px;
+    font-style: normal;
+    text-align: center;
+}
+h2{
+    font-family: "Chakra Petch", system-ui;
+    font-size: 10x;
+    font-style: normal;
+}  .imagen-pequena {
+    width: 300px; /* Ajusta el ancho según tus necesidades */
+    height: 300px; /* Ajusta la altura según tus necesidades */
+    object-fit: cover; /* Esto mantiene la proporción de la imagen y corta el exceso si es necesario */
+}
+
+th, td {
+    width: 60px; /* Ajusta el ancho de las celdas según sea necesario */
+    height: 70px; /* Ajusta la altura de las celdas según sea necesario */
+}
